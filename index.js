@@ -32,11 +32,7 @@ function speakOut(something) {
         window.open("https://github.com", "_blank");
     } else if (voice.includes("about Prithviraj")) {
         voice = "He is an fraud ,four twenty,funny goose and bloody bugger";
-    } else if (voice.includes("about Gokul")) {
-        voice = "He is an fraud ,four twenty,funny goose and bloody bugger";
-    } else if (voice.includes("about Vetrivel")) {
-        voice = "Please don't talk  me about him,ask anything else";
-    } else if (voice.includes("what's your name")) {
+    }   else if (voice.includes("what's your name")) {
         voice = "I don't have any specific name , you can call me what ever you want ";
     } else if (voice.includes("life")) {
         let sound = document.getElementById("demonte");
