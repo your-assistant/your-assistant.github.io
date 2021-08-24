@@ -30,8 +30,6 @@ function speakOut(something) {
         window.open("https://twitter.com", "_blank");
     } else if (voice.includes("Github")) {
         window.open("https://github.com", "_blank");
-    } else if (voice.includes("about Prithviraj")) {
-        voice = "He is an fraud ,four twenty,funny goose and bloody bugger";
     }   else if (voice.includes("what's your name")) {
         voice = "I don't have any specific name , you can call me what ever you want ";
     } else if (voice.includes("life")) {
